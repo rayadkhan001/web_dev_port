@@ -25,7 +25,7 @@ body {
     font-weight: 700;
 }
 .section_description{
-    margin-bottom: 130px;
+    margin-bottom: 60px;
     color:#757575;
     text-align: center;
     font-size: 18px;
@@ -72,7 +72,7 @@ nav a {
     justify-content: space-between;
 }
 .banner-content{
-    min-width: 500px;
+    max-width: 500px;
 }
 .banner .profile_picture{
     width: 500px;
@@ -95,11 +95,22 @@ nav a {
     font-size: 38px;
 }
 /* main section styles */
-
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
 /* about section styles */
 .about{
     margin: 130px 0;
     padding: 80px; 
     border-radius: 10px; 
     background-color: #FFF8F3;
+}
+.about_info_container{
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.about_info{
+    text-align: center;
 }
