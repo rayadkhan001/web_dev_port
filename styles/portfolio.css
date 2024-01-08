@@ -175,6 +175,14 @@ main section{
     margin-top: 50px;
 }
 
+/* footer styles */
+footer{
+    margin-top: 100px;
+    display: flex;
+    padding: 130px 200px;
+    background: #FFF8F3;
+}
+
 
 
 
